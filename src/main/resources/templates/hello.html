@@ -1,0 +1,12 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Hello</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+</head>
+<body>
+<p th:text="'안녕하세요. ' + ${data}">여기는 아무상관없다. 아무거나 적어도 결과에 미치는 영향은 1도 없어어어</p>
+<!-- ${data} 는 넘겨 받아온 model 에서의 key 값이다.
+     ${data} = "hello" -->
+</body>
+</html>
